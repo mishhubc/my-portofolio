@@ -15,10 +15,9 @@ $('a[href^="#"]').on('click', function (event) {
     );
   }
 });
-const footer = document.querySelector('footer__text');
+const footer = document.querySelector('.footer__text');
 const year = new Date().getFullYear();
-footer.innerHTML = `© ${year} <a href="https://github.com/mishhubc"></a> and <a href="https://github.com/covidev" target="_blank"></a>  
-</a>`;
+footer.innerHTML = `© ${year} <a href="https://github.com/mishhubc"> </a>and<a href="https://github.com/covidev" target="_blank"></a> </a>`;
 
 initSr();
 initTilt();
